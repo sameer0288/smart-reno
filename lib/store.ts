@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { Lead, Appointment, FileRef, AuditEvent } from './schemas';
 
-const DB_PATH = 'C:\\Users\\Dell\\Desktop\\smart-reno\\app\\db.json';
+const DB_PATH = path.join(process.cwd(), 'db.json');
 
 export class Store {
   private data: {
