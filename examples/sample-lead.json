@@ -1,0 +1,13 @@
+{
+  "homeowner": {
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "phone": "555-123-4567"
+  },
+  "project": {
+    "type": "Deck Construction",
+    "description": "15x20 cedar deck with stairs and railing.",
+    "address": "456 Oak Ave, Springfield, IL 62704",
+    "zip": "62704"
+  }
+}

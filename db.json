@@ -1,0 +1,51 @@
+{
+  "leads": {
+    "sr_lead_spequ2": {
+      "id": "sr_lead_spequ2",
+      "homeowner": {
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "555-123-4567"
+      },
+      "project": {
+        "type": "Deck Construction",
+        "description": "15x20 cedar deck with stairs and railing.",
+        "address": "456 Oak Ave, Springfield, IL 62704",
+        "zip": "62704"
+      },
+      "status": "synced",
+      "createdAt": "2026-03-24T05:33:09.007Z",
+      "externalRef": "bt_lead_1cyynl"
+    }
+  },
+  "appointments": {},
+  "files": {},
+  "auditLogs": {
+    "sr_lead_spequ2": [
+      {
+        "id": "xp7p0t",
+        "leadId": "sr_lead_spequ2",
+        "timestamp": "2026-03-24T05:33:09.009Z",
+        "event": "Intake received",
+        "details": "{\"type\":\"Deck Construction\",\"description\":\"15x20 cedar deck with stairs and railing.\",\"address\":\"456 Oak Ave, Springfield, IL 62704\",\"zip\":\"62704\"}",
+        "actor": "system"
+      },
+      {
+        "id": "2rwco",
+        "leadId": "sr_lead_spequ2",
+        "timestamp": "2026-03-24T05:33:09.014Z",
+        "event": "Status updated to synced",
+        "details": "Ext Ref: bt_lead_1cyynl",
+        "actor": "system"
+      },
+      {
+        "id": "33c5og",
+        "leadId": "sr_lead_spequ2",
+        "timestamp": "2026-03-24T05:34:21.126Z",
+        "event": "Provider Event: estimator_assigned",
+        "details": "Simulated from CLI",
+        "actor": "system"
+      }
+    ]
+  }
+}
