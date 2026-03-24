@@ -67,6 +67,23 @@
       "status": "synced",
       "createdAt": "2026-03-24T13:48:18.288Z",
       "externalRef": "bt_lead_57rmg"
+    },
+    "sr_lead_mrx88n": {
+      "id": "sr_lead_mrx88n",
+      "homeowner": {
+        "name": "Sameer Ali",
+        "email": "sameersheikh0288@gmail.com",
+        "phone": "8306690288"
+      },
+      "project": {
+        "type": "Full Renovation",
+        "description": "i want to do full renovation",
+        "address": "123 alpha street near reno building",
+        "zip": "10001"
+      },
+      "status": "synced",
+      "createdAt": "2026-03-24T14:12:35.501Z",
+      "externalRef": "bt_lead_nwjjmg"
     }
   },
   "appointments": {},
@@ -149,6 +166,24 @@
         "timestamp": "2026-03-24T13:48:18.304Z",
         "event": "Status updated to synced",
         "details": "Ext Ref: bt_lead_57rmg",
+        "actor": "system"
+      }
+    ],
+    "sr_lead_mrx88n": [
+      {
+        "id": "ygcnj",
+        "leadId": "sr_lead_mrx88n",
+        "timestamp": "2026-03-24T14:12:35.504Z",
+        "event": "Intake received",
+        "details": "{\"type\":\"Full Renovation\",\"description\":\"i want to do full renovation\",\"address\":\"123 alpha street near reno building\",\"zip\":\"10001\"}",
+        "actor": "system"
+      },
+      {
+        "id": "d44bj9",
+        "leadId": "sr_lead_mrx88n",
+        "timestamp": "2026-03-24T14:12:35.516Z",
+        "event": "Status updated to synced",
+        "details": "Ext Ref: bt_lead_nwjjmg",
         "actor": "system"
       }
     ]
