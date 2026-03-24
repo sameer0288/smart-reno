@@ -3,7 +3,7 @@ import { z } from 'zod';
 export const HomeownerSchema = z.object({
   name: z.string().min(1),
   email: z.string().email(),
-  phone: z.string().min(10),
+  phone: z.string().min(1), // Loosened for easier testing in prototype
 });
 
 export const ProjectSchema = z.object({

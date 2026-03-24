@@ -39,7 +39,8 @@ export async function POST(req: NextRequest) {
     console.error('Intake Error:', error);
     return NextResponse.json({ 
       success: false, 
-      error: error.message || 'Internal Server Error' 
+      error: error.message || 'Internal Server Error',
+      details: error.errors || null
     }, { status: 400 });
   }
 }

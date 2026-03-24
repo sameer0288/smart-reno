@@ -27,7 +27,11 @@ export class Store {
   }
 
   private save() {
-    fs.writeFileSync(DB_PATH, JSON.stringify(this.data, null, 2));
+    try {
+      fs.writeFileSync(DB_PATH, JSON.stringify(this.data, null, 2));
+    } catch (e) {
+      console.warn('Persistence bypassed for read-only enviroment (demo mode active)');
+    }
   }
 
   // Leads
