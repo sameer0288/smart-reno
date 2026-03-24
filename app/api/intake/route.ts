@@ -1,10 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { LeadSchema, globalStore } from '@/lib/schemas'; // Wait, I put schemas in lib/schemas.ts
+import { LeadSchema } from '@/lib/schemas';
 import { AdapterFactory } from '@/adapters';
-
-// In Next.js App Router, we can't easily export a singleton across requests in dev mode without some tricks,
-// but for this prototype, we'll use a simple global.
 import { globalStore as store } from '@/lib/store';
+
 
 export async function POST(req: NextRequest) {
   try {

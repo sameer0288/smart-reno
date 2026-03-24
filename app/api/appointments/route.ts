@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { AppointmentSchema, globalStore as store } from '@/lib/schemas';
+import { AppointmentSchema } from '@/lib/schemas';
+import { globalStore as store } from '@/lib/store';
 import { AdapterFactory } from '@/adapters';
 
 export async function POST(req: NextRequest) {
