@@ -16,6 +16,57 @@
       "status": "synced",
       "createdAt": "2026-03-24T05:33:09.007Z",
       "externalRef": "bt_lead_1cyynl"
+    },
+    "sr_lead_6g21go": {
+      "id": "sr_lead_6g21go",
+      "homeowner": {
+        "name": "sd",
+        "email": "rilay65855@duoley.com",
+        "phone": "8306690288"
+      },
+      "project": {
+        "type": "Kitchen Remodel",
+        "description": "errererfsfdfddd",
+        "address": "sdfdsfdsf",
+        "zip": "232324"
+      },
+      "status": "synced",
+      "createdAt": "2026-03-24T13:22:32.879Z",
+      "externalRef": "bt_lead_g6qrk"
+    },
+    "sr_lead_37u71v": {
+      "id": "sr_lead_37u71v",
+      "homeowner": {
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "555-123-4567"
+      },
+      "project": {
+        "type": "Deck Construction",
+        "description": "15x20 cedar deck with stairs and railing.",
+        "address": "456 Oak Ave, Springfield, IL 62704",
+        "zip": "62704"
+      },
+      "status": "synced",
+      "createdAt": "2026-03-24T13:41:37.782Z",
+      "externalRef": "bt_lead_edi5q"
+    },
+    "sr_lead_dydkfp": {
+      "id": "sr_lead_dydkfp",
+      "homeowner": {
+        "name": "Sameer Ali",
+        "email": "sameersheikh0288@gmail.com",
+        "phone": "8306690288"
+      },
+      "project": {
+        "type": "Kitchen Remodel",
+        "description": "want furniture decorate and fully designed",
+        "address": "sdfasdfsdf",
+        "zip": "22323"
+      },
+      "status": "synced",
+      "createdAt": "2026-03-24T13:48:18.288Z",
+      "externalRef": "bt_lead_57rmg"
     }
   },
   "appointments": {},
@@ -44,6 +95,60 @@
         "timestamp": "2026-03-24T05:34:21.126Z",
         "event": "Provider Event: estimator_assigned",
         "details": "Simulated from CLI",
+        "actor": "system"
+      }
+    ],
+    "sr_lead_6g21go": [
+      {
+        "id": "7i4z3f",
+        "leadId": "sr_lead_6g21go",
+        "timestamp": "2026-03-24T13:22:32.885Z",
+        "event": "Intake received",
+        "details": "{\"type\":\"Kitchen Remodel\",\"description\":\"errererfsfdfddd\",\"address\":\"sdfdsfdsf\",\"zip\":\"232324\"}",
+        "actor": "system"
+      },
+      {
+        "id": "lljmr4",
+        "leadId": "sr_lead_6g21go",
+        "timestamp": "2026-03-24T13:22:32.895Z",
+        "event": "Status updated to synced",
+        "details": "Ext Ref: bt_lead_g6qrk",
+        "actor": "system"
+      }
+    ],
+    "sr_lead_37u71v": [
+      {
+        "id": "2d68ev",
+        "leadId": "sr_lead_37u71v",
+        "timestamp": "2026-03-24T13:41:37.785Z",
+        "event": "Intake received",
+        "details": "{\"type\":\"Deck Construction\",\"description\":\"15x20 cedar deck with stairs and railing.\",\"address\":\"456 Oak Ave, Springfield, IL 62704\",\"zip\":\"62704\"}",
+        "actor": "system"
+      },
+      {
+        "id": "gs0azc",
+        "leadId": "sr_lead_37u71v",
+        "timestamp": "2026-03-24T13:41:37.796Z",
+        "event": "Status updated to synced",
+        "details": "Ext Ref: bt_lead_edi5q",
+        "actor": "system"
+      }
+    ],
+    "sr_lead_dydkfp": [
+      {
+        "id": "nxrlma",
+        "leadId": "sr_lead_dydkfp",
+        "timestamp": "2026-03-24T13:48:18.294Z",
+        "event": "Intake received",
+        "details": "{\"type\":\"Kitchen Remodel\",\"description\":\"want furniture decorate and fully designed\",\"address\":\"sdfasdfsdf\",\"zip\":\"22323\"}",
+        "actor": "system"
+      },
+      {
+        "id": "oxpzwp",
+        "leadId": "sr_lead_dydkfp",
+        "timestamp": "2026-03-24T13:48:18.304Z",
+        "event": "Status updated to synced",
+        "details": "Ext Ref: bt_lead_57rmg",
         "actor": "system"
       }
     ]
